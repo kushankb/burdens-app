@@ -120,6 +120,18 @@ export default function App() {
 
           {/* Info panel overlay */}
           <InfoPanel />
+
+          {/* Attribution */}
+          <div className="app-attribution">
+            Built by{" "}
+            <a
+              href="https://github.com/kushankb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @kushankb
+            </a>
+          </div>
         </div>
       </div>
     </div>

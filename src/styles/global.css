@@ -545,6 +545,32 @@ body { font-family: var(--font); background: var(--bg); color: var(--text); font
 .mapboxgl-ctrl-icon { filter: invert(0.7); }
 .mapboxgl-ctrl-scale { background: rgba(15,17,23,0.7) !important; border-color: var(--border) !important; color: var(--text-muted) !important; font-size: 10px !important; }
 
+/* ── Attribution ────────────────────────────────────────────── */
+.app-attribution {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  background: rgba(15, 17, 23, 0.7);
+  backdrop-filter: blur(4px);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  z-index: 5;
+  white-space: nowrap;
+}
+.app-attribution a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+.app-attribution a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
 /* ── Scrollbar ──────────────────────────────────────────────── */
 .control-panel::-webkit-scrollbar { width: 4px; }
 .control-panel::-webkit-scrollbar-track { background: transparent; }

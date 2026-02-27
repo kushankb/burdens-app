@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/burdens-app/static/css/main.06ef0b7a.css",
+    "main.js": "/burdens-app/static/js/main.7bcfc407.js",
+    "index.html": "/burdens-app/index.html",
+    "main.06ef0b7a.css.map": "/burdens-app/static/css/main.06ef0b7a.css.map",
+    "main.7bcfc407.js.map": "/burdens-app/static/js/main.7bcfc407.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06ef0b7a.css",
+    "static/js/main.7bcfc407.js"
+  ]
+}
